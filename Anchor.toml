@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+votingproject = "Ejx3f6RR9moPBKn99W1sB2XafWJwGhyWi2KyqZNBaM9"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/loayei/my-solana-wallet/new-keypair.json"
+
+[scripts]
+test = "node tests/votingproject.js"
